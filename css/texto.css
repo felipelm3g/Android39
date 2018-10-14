@@ -1,0 +1,38 @@
+.texto {
+    float: left;
+    position: absolute;
+    
+    width: 500px;
+    height: 100px;
+    
+    top: 10px;
+    left: 10px;
+    z-index: 4;
+    overflow: auto;
+}
+.texto p {
+    float: left;
+    width: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+    text-align: justify;
+}
+#txtnovo {
+    color: #22abf4;
+    font-size: 1.3em;
+    
+    -webkit-transition: color 3000ms linear;
+    -moz-transition: color 3000ms linear;
+    -o-transition: color 3000ms linear;
+    -ms-transition: color 3000ms linear;
+    transition: color 3000ms linear;
+}
+#txtvelho {
+    color: #444444;
+    font-size: 0.9em;
+    opacity: 0.2;
+}
+

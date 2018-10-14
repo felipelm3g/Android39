@@ -1,0 +1,59 @@
+.interact-box {
+    float: left;
+    position: absolute;
+    
+    display: none;
+    
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+    width: 350px;
+    height: 150px;
+    background-color: #000;
+    top: calc(50% - 75px);
+    left: calc(50% - 175px);
+    border: 1px solid #FF0000;
+    
+    z-index: 5;
+}
+.interact-box p {
+    float: left;
+    width: 100%;
+    
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+    color: #22abf4;
+    
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.interact-box button {
+    float: left;
+    width: 140px;
+    height: 40px;
+    
+    cursor: pointer;
+    
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+    color: #000;
+    
+    margin-left: calc(50% - 70px);
+    margin-right: calc(50% - 70px);
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #FF0000;
+}
+.interact-box button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0px solid #FF0000;
+    outline: 0;
+}
