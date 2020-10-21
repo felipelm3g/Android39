@@ -110,7 +110,7 @@ function cmd_Ola() {
 //Controles de Musica
 function cmd_LigarMusica() {
     document.getElementById('webvideo').style.opacity = "1.0";
-    document.getElementById('webvideo').src = "https://www.youtube.com/embed/fw3UYy02lSI?autoplay=1";
+    document.getElementById('webvideo').src = "https://www.youtube.com/embed/wh3SIq3qDJQ?autoplay=1";
 }
 
 function cmd_DesLigarMusica() {
